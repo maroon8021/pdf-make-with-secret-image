@@ -1,0 +1,15 @@
+{
+  "name": "pdf-make-with-secret-image",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:maroon8021/pdf-make-with-secret-image.git",
+  "author": "maroon8021 <maroon8021@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "export-pdf": "node ./src/index.js",
+    "encrypted": "node ./src/encrypt.js"
+  },
+  "dependencies": {
+    "pdfmake": "^0.1.71"
+  }
+}
